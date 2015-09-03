@@ -1,0 +1,182 @@
+body {
+  background-color: white;
+}
+
+#firstcolumn{
+
+}
+
+#middlecolumn {
+
+}
+
+#lastcolumn {
+
+}
+
+header {
+  margin: 0;
+  background-color: #FAFAFA;
+  height: 47px;
+  width: 100;
+  display: block;
+  }
+
+ h2 {
+  padding-top: 10px;
+  font-family: 'Droid Sans';
+}
+
+header nav {
+  display: inline;
+  padding-left: 1100px;
+  margin-bottom: 500px;
+ }
+
+header ul {
+  list-style: none;
+  display: inline;
+  position: absolute;
+  top: 0;
+  padding-top: 20px;
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
+header li {
+  display: inline;
+  padding: 20px;
+ }
+
+main {
+  background-color: white;
+  margin-top: 40px;
+  margin-bottom: 0;
+  height: 2350px;
+}
+
+
+img {
+  border: #CACACA 1px solid;
+  height: 424;
+  width: 424;
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+ }
+
+main footer {
+  color: #777;
+
+}
+
+.left {
+  float: left;
+  margin-left: 150px;
+  padding: 0;
+}
+
+.right {
+  float: right;
+  margin-left: 10px;
+  margin-right: 250px;
+  padding: 0;
+}
+
+.footer {
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  text-align: right;
+  padding: 12px 0 12px 0;
+  margin: 0 12px 22px;
+  border-bottom: 1px solid #cacaca;
+  position: relative;
+}
+
+.number {
+  float: left;
+  margin: 5px 0;
+  color: #cacaca;
+}
+
+.the {
+  color: #565656;
+  font-weight: bold;
+}
+
+footer {
+  color:#cacaca;
+  font-size: 18px;
+  font-family: 'Droid Sans'
+  border-top: 1px solid #cacaca;
+  margin-top: 0;
+  background-color: white;
+  text-align: right;
+  padding-right: 10px;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+  font-family: 'Droid Sans';
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #4183C4;
+}
+
+@ media screen and (max-width: 980px) {
+
+    #firstcolumn {
+    width: 41%;
+    padding: 1% 4%;
+  }
+
+  #middlecolumn {
+    width: 41%;
+    padding: 1% 4%;
+    margin: 0 0 5px 5px;
+    float: right;
+  }
+
+  #lastcolumn {
+    clear: both;
+    padding: 1% 4%;
+    width:auto;
+    float: none;
+  }
+
+  header, footer {
+    padding: 1% 4%;
+    float: none;
+    width: auto;
+  }
+}
+
+@ media screen and (max-width: 600px) {
+  #firstcolumn {
+    width:auto;
+    float: none;
+  }
+
+  #middlecolumn {
+    width: auto;
+    float: none;
+    margin-left: 0;
+  }
+
+  #lastcolumn {
+    width: auto;
+    float: none;
+  }
+
+  header, footer {
+    float: none;
+  }
+}
